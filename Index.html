@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Projet SIG - Webmapping</title>
+    <link rel="stylesheet" href="mise_en_page_css.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="top-header">
+        <h1> Projet SIG Grenoble </h1>
+    </div>
+
+    <!-- MENU -->
+    <nav class="navbar">
+        <ul>
+            <li class="menu1">
+                <h4><a href="#carte1">evolution artificialisation</a></h4>
+            </li>
+            <li class="menu1">
+                <h4><a href="#carte2">Dents creuses</a></h4>
+            </li>
+        </ul>
+    </nav>
+
+</header>
+
+<section class="hero">
+    <h1> les différentes cartes du projet metropole Grenoble-Alpes </h1>
+    <h2>Comment l'artificialisation des sols a t elle évolué ? existe t il encore des dents creuses dans Grenoble </h2>
+</section>
+
+<section class="bloc">
+    <h2>Contexte</h2>
+    <p> Les centres urbains sont capital, avec la politique du zéro artificialisation nette, ce sont des espaces stratégiques pour y trouver des dents creuses et ainsi éviter de consommer des sols naturels pour nos besoins de logements mais aussi pour des batiments qui servent à différentes secteurs d'activités </p>
+</section>
+
+<!-- ================= CARTE 1 ================= -->
+<section class="bloc carte" id="carte1">
+    <div class="text-carte">
+        
+        <!-- Texte à gauche -->
+        <div class="texte">
+            <h2>évolution de l'artificialisation entre 2018 et 2021</h2>
+            <p> Peu d'espace est concerné par cette évolution dans le centre ville, il faut s'attarder aux alentours du centre ville pour voir les différentes évolution, cela peut vouloir dire que le centre ville est deja très dense </p>
+        </div>
+
+        <!-- Carte à droite -->
+        <div class="carte-container">
+            <iframe src="qgis2web_artificialisation/index.html" class="mapframe"></iframe>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= CARTE 2 ================= -->
+<section class="bloc carte" id="carte2">
+    <div class="text-carte">
+        
+        <!-- Carte à gauche -->
+        <div class="carte-container">
+            <iframe src="qgis2web_dents_creuses/index.html" class="mapframe"></iframe>
+        </div>
+
+        <!-- Texte à droite -->
+        <div class="texte">
+            <h2> Les dents creuses </h2>
+            <p> Les dents creuses ne sont pas la réponse parfaite pour endiguer le phénomène de consommation de sols naturels et petit à petit toutes les zones possibles seront utilisés, le centre ville commence déjà a en être dépourvu mais cette stratégie est quand même efficace, elle permet de ralentir fortement le processus d'artificialisation hors zone urbaine </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= Conclusion ================= -->
+<section class="bloc carte">
+    <h2><em>Conclusion</em></h2>
+    <h4> La valorisation des « dents creuses » doit donc être vu comme un facteur parmi d'autres dans une stratégie globale de densification et de transformation urbaine. Elle doit s'articuler avec d'autres formes d'intervention, telles que la réhabilitation du bâti existant, la reconversion des friches ou encore l'optimisation des usages du sol. Dans une ville contrainte comme Grenoble, cette approche apparaît indispensable pour concilier développement urbain et préservation des espaces naturels. </h4>
+</section>
+
+<footer>
+    <p>© 2026 – Bertrand Romain - UMLP-Besançon-L3-géographie</p>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
